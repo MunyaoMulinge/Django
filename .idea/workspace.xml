@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7de5217c-bcf4-4522-9665-bd8057366075" name="Changes" comment="" />
+    <list default="true" id="7de5217c-bcf4-4522-9665-bd8057366075" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/trydjango/src/blog/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/blog/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/blog/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/blog/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/blog/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/blog/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/blog/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/cart/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/cart/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/cart/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/cart/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/cart/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/cart/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/cart/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/profiles/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/profiles/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/profiles/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/profiles/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/profiles/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/profiles/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trydjango/src/profiles/views.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
