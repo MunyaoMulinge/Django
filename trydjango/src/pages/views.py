@@ -19,3 +19,4 @@ def about_view(request, *args, **kwargs):
 
 def careers_view(request, *args, **kwargs):
     return render(request, "careers.html", {})
+
