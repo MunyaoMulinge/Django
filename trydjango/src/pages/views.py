@@ -6,18 +6,16 @@ from django.shortcuts import render
 def home_view(request, *args, **kwargs):
     print(args, kwargs)
     print(request.user)
-    return HttpResponse("<h1> Breaking Bad <h1/>")
-
+    return render(request, "home.html", {})
 
 
 def contact_view(request, *args, **kwargs):
-    return HttpResponse("<h1> Albuquerque, New Mexico <h1/>")
-
+    return render(request, "contact.html", {})
 
 
 def about_view(request, *args, **kwargs):
-    return HttpResponse("<h1> Walter White & Jesse Pinkman <h1/>")
+    return render(request, "about.html", {})
 
 
 def careers_view(request, *args, **kwargs):
-    return HttpResponse("<h1> Pharmacists <h1/>")
+    return render(request, "careers.html", {})
