@@ -14,7 +14,12 @@ def contact_view(request, *args, **kwargs):
 
 
 def about_view(request, *args, **kwargs):
-    return render(request, "about.html", {})
+    my_context = {
+        "my_text": "This is my about",
+        "my_numb": 711223344,
+        "my_list": [123, 456, 789]
+    }
+    return render(request, "about.html", my_context)
 
 
 def careers_view(request, *args, **kwargs):
