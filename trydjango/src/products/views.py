@@ -4,11 +4,14 @@ from .models import Product
 
 # Create your views here.
 def product_detail_view(request):
-    obj = Product.objects.get(id=1)
+    obj = Product.objects.get(id=2)
+    # context = {
+    #   'title': obj.title,
+    #  'description': obj.description,
+    # 'price': obj.price,
+
+    # }
     context = {
-        'title': obj.title,
-        'description': obj.description
-
+        'object':obj
     }
-    return render(request, "product/detail.html", context)
-
+    return render(request, "products/product_detail.html", context)
