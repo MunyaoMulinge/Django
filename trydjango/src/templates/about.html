@@ -8,17 +8,12 @@
 </head>
 <body>
 <p> This is the about section.</p>
-<h3> {{title|capfirst}}</h3>
+<h3> {{title|capfirst|title}}</h3>
 <p>
     {{title|capfirst}},
     {{my_numb}},
-    {{my_list}}
+    {{my_list|upper}}
 </p>
-<ul>
-{% for my_sub_item in my_list %}
-    <li>{{forloop.counter}}. {{my_sub_item}} </li>
-    {% endfor %}
-</ul>
 </body>
 </html>
 {%endblock content%}
