@@ -15,7 +15,7 @@ def contact_view(request, *args, **kwargs):
 
 def about_view(request, *args, **kwargs):
     my_context = {
-        "my_text": "This is my about",
+        "title": "flush This is my about",
         "my_numb": 711223344,
         "my_list": [123, 456, 789, "KGB"]
     }
