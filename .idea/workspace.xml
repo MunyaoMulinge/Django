@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7de5217c-bcf4-4522-9665-bd8057366075" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/trydjango/src/products/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trydjango/src/products/templates/products/product_create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trydjango/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/trydjango/src/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trydjango/src/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/trydjango/src/products/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trydjango/src/trydjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trydjango/src/trydjango/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

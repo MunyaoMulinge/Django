@@ -1,2 +1,3 @@
 # Django
-Django Learning
+Django Learning.
+Learning from a YouTube video
