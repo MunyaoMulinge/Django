@@ -13,7 +13,7 @@ class ProductForm(forms.ModelForm):
 
 
 class RawProductForm(forms.Form):
-    title = forms.CharField()
-    description = forms.CharField()
-    price = forms.DecimalField()
+    title = forms.CharField(label='')
+    description = forms.CharField(required=False)
+    price = forms.DecimalField(initial=76.77)
 
